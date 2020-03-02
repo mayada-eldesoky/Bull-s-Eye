@@ -12,6 +12,8 @@
 		5C0CC3B82405AF28006D0CF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C0CC3B62405AF28006D0CF8 /* Main.storyboard */; };
 		5C0CC3BA2405AF2C006D0CF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C0CC3B92405AF2C006D0CF8 /* Assets.xcassets */; };
 		5C0CC3BD2405AF2C006D0CF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C0CC3BB2405AF2C006D0CF8 /* LaunchScreen.storyboard */; };
+		AAFD8337240C256F0040CD5D /* infoviewcontrollerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFD8336240C256F0040CD5D /* infoviewcontrollerViewController.swift */; };
+		AAFD8339240C287F0040CD5D /* aboutTheAuthorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFD8338240C287F0040CD5D /* aboutTheAuthorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		5C0CC3B92405AF2C006D0CF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C0CC3BC2405AF2C006D0CF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C0CC3BE2405AF2C006D0CF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAFD8336240C256F0040CD5D /* infoviewcontrollerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoviewcontrollerViewController.swift; sourceTree = "<group>"; };
+		AAFD8338240C287F0040CD5D /* aboutTheAuthorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutTheAuthorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,11 @@
 				5C0CC3B22405AF28006D0CF8 /* AppDelegate.swift */,
 				5C0CC3B42405AF28006D0CF8 /* ViewController.swift */,
 				5C0CC3B62405AF28006D0CF8 /* Main.storyboard */,
+				AAFD8338240C287F0040CD5D /* aboutTheAuthorViewController.swift */,
 				5C0CC3B92405AF2C006D0CF8 /* Assets.xcassets */,
 				5C0CC3BB2405AF2C006D0CF8 /* LaunchScreen.storyboard */,
 				5C0CC3BE2405AF2C006D0CF8 /* Info.plist */,
+				AAFD8336240C256F0040CD5D /* infoviewcontrollerViewController.swift */,
 			);
 			path = "pull'sEye";
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			files = (
 				5C0CC3B52405AF28006D0CF8 /* ViewController.swift in Sources */,
 				5C0CC3B32405AF28006D0CF8 /* AppDelegate.swift in Sources */,
+				AAFD8337240C256F0040CD5D /* infoviewcontrollerViewController.swift in Sources */,
+				AAFD8339240C287F0040CD5D /* aboutTheAuthorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
